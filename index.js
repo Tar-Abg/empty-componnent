@@ -1,6 +1,10 @@
 var $ = require ("jquery");
-require('./css/style.css')
-export function createComponent(){
-    $("<div>").addClass("kendoEmptyComponent")
+require('./css/style.css');
+
+export function createComponent(rootElement){
+    rootElement.append(
+        $("<div>").addClass("kendoEmptyComponent")
+    )
+    
 }
 
