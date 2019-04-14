@@ -1,3 +1,7 @@
 .kendoEmptyComponent{
-    width: 45vw;
+    width: 40vw;
+    height: 80px;
+    border: 1px solid #02536e;
+    border-radius: 10px
+    
 }
